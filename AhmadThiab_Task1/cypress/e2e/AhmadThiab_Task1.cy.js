@@ -26,9 +26,9 @@ describe('Ahmad Thiab Task 1 ', () => {
         cy.get('a.nav-link').contains('Sign in').should('be.visible')
 
         cy.get('button[type="submit"].btn-primary').should('be.visible').and('contain', 'Sign up') //.click()
-        // cy.get('a[href="#/register"]').should('be.visible').and('contain', 'Sign up')
+         cy.get('a[href="#/register"]').should('be.visible').and('contain', 'Sign up')
        
-       // cy.get('p.text-xs-center a').should('be.visible').and('contain', 'Have an account?')
+        cy.get('p.text-xs-center a').should('be.visible').and('contain', 'Have an account?')
 
         cy.get('a.nav-link').contains('Home').should('be.visible')
 
